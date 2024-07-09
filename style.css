@@ -38,7 +38,11 @@ nav {
 }
 
 .logo {
-  width: 60px;
+  width: 140px;
+}
+
+.logo img {
+  width: 100%;
 }
 
 nav h1 {
@@ -286,6 +290,23 @@ footer {
 /* footer  */
 
 @media screen and (max-width: 454px) {
+  .logo {
+    width: 70px;
+  }
+  .logo img {
+    width: 100%;
+  }
+
+  nav h1 {
+    font-size: 3.5rem;
+    color: black;
+    text-align: center;
+  }
+
+  nav p {
+    font-size: 1.5rem;
+    text-align: center;
+  }
   .main-container .top h2 {
     font-size: 30px;
   }
