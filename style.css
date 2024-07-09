@@ -48,10 +48,12 @@ nav {
 nav h1 {
   font-size: 6rem;
   color: black;
+  text-align: center;
 }
 
 nav p {
   font-size: 2rem;
+  text-align: center;
 }
 
 .btns {
