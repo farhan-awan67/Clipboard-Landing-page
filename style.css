@@ -291,6 +291,16 @@ footer {
 }
 /* footer  */
 
+
+@media screen and (max-width:800px){
+  main{
+    margin: 1.5rem;
+  }
+  .main-container{
+    margin: 0;
+  }
+}
+
 @media screen and (max-width: 454px) {
   .logo {
     width: 70px;
