@@ -302,13 +302,18 @@ footer {
 }
 
 @media screen and (max-width: 454px) {
+  header{
+    padding: 32px 0;
+  }
+  nav{
+    margin: 0 15px;
+  }
   .logo {
     width: 70px;
   }
   .logo img {
     width: 100%;
   }
-
   nav h1 {
     font-size: 3.5rem;
     color: black;
